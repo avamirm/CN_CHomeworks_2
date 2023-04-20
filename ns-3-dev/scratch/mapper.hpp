@@ -19,6 +19,7 @@ private:
 
   uint16_t port;
   Ptr<Socket> socket;
+  Ptr<Socket> sendToClientSocket;
   Ipv4InterfaceContainer ip;
   uint16_t id;
   std::map<uint16_t, char> mappings;
@@ -44,6 +45,7 @@ Mapper::HandleAccept (Ptr<Socket> socket, const Address &src)
 void
 Mapper::StartApplication (void)
 {
+  sendToClientSocket  = Socket::CreateSocket (GetNode (), UdpSocketFactory::GetTypeId ());//////////
   socket = Socket::CreateSocket (GetNode (), TcpSocketFactory::GetTypeId ());
   InetSocketAddress localAddress = InetSocketAddress (ip.GetAddress (id), port);
   socket->Bind (localAddress);
@@ -55,34 +57,32 @@ Mapper::StartApplication (void)
 void
 Mapper::HandleRead (Ptr<Socket> socket)
 {
-  Ptr<Packet> packet;
-  while ((packet = socket->Recv ()))
+    Ptr<Packet> packet;
+    while ((packet = socket->Recv ()))
     {
 
-      if (packet->GetSize () == 0)
-        {
-          break;
-        }
-      MyHeader destinationHeader;
-      packet->RemoveHeader (destinationHeader);
-      uint16_t data = destinationHeader.GetData ();
-      auto it = mappings.find (data);
-      if (it != mappings.end ())
+        if (packet->GetSize () == 0)
+            {
+            break;
+            }
+        MyHeader destinationHeader;
+        packet->RemoveHeader (destinationHeader);
+        uint16_t data = destinationHeader.GetData ();
+        auto it = mappings.find (data);
+        if (it != mappings.end ())
         {
 
-          MyHeader destNewHeader;
-          destNewHeader.SetData (it->second);
-          Ptr<Packet> newPacket = Create<Packet> ();
-          newPacket->AddHeader (destNewHeader);
-          Ptr<Socket> newSocket = Socket::CreateSocket (GetNode (), UdpSocketFactory::GetTypeId ());
-          uint16_t cPort = destinationHeader.GetClientPort ();
-          Ipv4Address cAdr = destinationHeader.GetClientIp ();
-          InetSocketAddress destAddress = InetSocketAddress (cAdr, cPort);
-          newSocket->Connect (destAddress);
-          newSocket->Send (newPacket);
-          std::cout << "Mapper " << id << " Sent: " << static_cast<char> (destNewHeader.GetData ())
-               << std::endl;
-          newSocket->Close ();
+            MyHeader destNewHeader;
+            destNewHeader.SetData (it->second);
+            Ptr<Packet> newPacket = Create<Packet> ();
+            newPacket->AddHeader (destNewHeader);
+
+            Ipv4Address cAdr = destinationHeader.GetClientIp ();
+            uint16_t cPort = destinationHeader.GetClientPort ();
+            InetSocketAddress destAddress = InetSocketAddress (cAdr, cPort);
+            sendToClientSocket->SendTo(newPacket, 0, destAddress);
+            std::cout << "Mapper " << id << " Sent: " << static_cast<char> (destNewHeader.GetData ())
+                << std::endl;
         }
     }
 }

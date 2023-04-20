@@ -62,25 +62,26 @@ private:
 ```
 
 - Mapper
-  Mapper class also inherits from Application class and implements StartApplication, HandleRead, and HandleAccept methods. We store mapper's port, mapper id, mapper's ip, socket and mappings of numbers to chars for each mapper in this class.
+  Mapper class also inherits from Application class and implements StartApplication, HandleRead, and HandleAccept methods. We store mapper's port, mapper id, mapper's ip, socket, a UDP socket for sending data to client, and mappings of numbers to chars for each mapper in this class.
 
 ```cpp
 class Mapper : public Application
 {
 public:
-    Mapper(uint16_t port, Ipv4InterfaceContainer &ip, uint16_t id);
-    virtual ~Mapper();
-    void HandleRead(Ptr<Socket> socket);
-    void HandleAccept(Ptr<Socket> socket, const Address &src);
+  Mapper (uint16_t port, Ipv4InterfaceContainer &ip, uint16_t id);
+  virtual ~Mapper ();
+  void HandleRead (Ptr<Socket> socket);
+  void HandleAccept (Ptr<Socket> socket, const Address &src);
 
 private:
-    virtual void StartApplication(void);
+  virtual void StartApplication (void);
 
-    uint16_t port;
-    Ptr<Socket> socket;
-    Ipv4InterfaceContainer ip;
-    uint16_t id;
-    std::map<uint16_t, char> mappings;
+  uint16_t port;
+  Ptr<Socket> socket;
+  Ptr<Socket> sendToClientSocket;
+  Ipv4InterfaceContainer ip;
+  uint16_t id;
+  std::map<uint16_t, char> mappings;
 };
 ```
 
@@ -372,13 +373,16 @@ void Master::HandleRead(Ptr<Socket> socket)
   In this part we create a TCP socket and bind it to the mapper's port and ip and then listen on that socket. Then we call HandleAccept function every time the mapper needs to accept a socket.
 
 ```cpp
-void Mapper::StartApplication(void)
+void
+Mapper::StartApplication (void)
 {
-    socket = Socket::CreateSocket(GetNode(), TcpSocketFactory::GetTypeId());
-    InetSocketAddress localAddress = InetSocketAddress(ip.GetAddress(id), port);
-    socket->Bind(localAddress);
-    socket->Listen();
-    socket->SetAcceptCallback(MakeNullCallback<bool, Ptr<Socket>, const Address &>(), MakeCallback(&Mapper::HandleAccept, this));
+  sendToClientSocket  = Socket::CreateSocket (GetNode (), UdpSocketFactory::GetTypeId ());//////////
+  socket = Socket::CreateSocket (GetNode (), TcpSocketFactory::GetTypeId ());
+  InetSocketAddress localAddress = InetSocketAddress (ip.GetAddress (id), port);
+  socket->Bind (localAddress);
+  socket->Listen ();
+  socket->SetAcceptCallback (MakeNullCallback<bool, Ptr<Socket>, const Address &> (),
+                             MakeCallback (&Mapper::HandleAccept, this));
 }
 ```
 
@@ -393,38 +397,38 @@ void Mapper::HandleAccept(Ptr<Socket> socket, const Address &src)
 ```
 
 - HandleRead </br>
-  We create a pack and initial it by the Recv return value. Then try to find the recieved data in mapper's mapping data; If it finds it, We create a UDP socket and connect it to the client's port and ip address and then send the packet to client. At last we close the socket.
+  We create a pack and initial it by the Recv return value. Then try to find the recieved data in mapper's mapping data; If it finds it, We use UDP socket and connect it to the client's port and ip address and then send the packet to client. At last we close the socket.
 
 ```cpp
-void Mapper::HandleRead(Ptr<Socket> socket)
+void
+Mapper::HandleRead (Ptr<Socket> socket)
 {
     Ptr<Packet> packet;
-    while ((packet = socket->Recv()))
+    while ((packet = socket->Recv ()))
     {
 
-        if (packet->GetSize() == 0)
-        {
+        if (packet->GetSize () == 0)
+            {
             break;
-        }
+            }
         MyHeader destinationHeader;
-        packet->RemoveHeader(destinationHeader);
-        uint16_t data = destinationHeader.GetData();
-        auto it = mappings.find(data);
-        if (it != mappings.end())
+        packet->RemoveHeader (destinationHeader);
+        uint16_t data = destinationHeader.GetData ();
+        auto it = mappings.find (data);
+        if (it != mappings.end ())
         {
 
             MyHeader destNewHeader;
-            destNewHeader.SetData(it->second);
-            Ptr<Packet> newPacket = Create<Packet>();
-            newPacket->AddHeader(destNewHeader);
-            Ptr<Socket> newSocket = Socket::CreateSocket(GetNode(), UdpSocketFactory::GetTypeId());
-            uint16_t cPort = destinationHeader.GetClientPort();
-            Ipv4Address cAdr = destinationHeader.GetClientIp();
-            InetSocketAddress destAddress = InetSocketAddress(cAdr, cPort);
-            newSocket->Connect(destAddress);
-            newSocket->Send(newPacket);
-            cout << "Mapper " << id << " Sent: " << static_cast<char>(destNewHeader.GetData()) << endl;
-            newSocket->Close();
+            destNewHeader.SetData (it->second);
+            Ptr<Packet> newPacket = Create<Packet> ();
+            newPacket->AddHeader (destNewHeader);
+
+            Ipv4Address cAdr = destinationHeader.GetClientIp ();
+            uint16_t cPort = destinationHeader.GetClientPort ();
+            InetSocketAddress destAddress = InetSocketAddress (cAdr, cPort);
+            sendToClientSocket->SendTo(newPacket, 0, destAddress);
+            std::cout << "Mapper " << id << " Sent: " << static_cast<char> (destNewHeader.GetData ())
+                << std::endl;
         }
     }
 }

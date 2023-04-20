@@ -1,31 +1,3 @@
-// #include <cstdlib>
-// #include <time.h>
-// #include <stdio.h>
-// #include <string>
-// #include <fstream>
-// #include <array>
-
-// #include "ns3/core-module.h"
-// #include "ns3/point-to-point-module.h"
-// #include "ns3/network-module.h"
-// #include "ns3/applications-module.h"
-// #include "ns3/mobility-module.h"
-// #include "ns3/csma-module.h"
-// #include "ns3/internet-module.h"
-// #include "ns3/yans-wifi-helper.h"
-// #include "ns3/ssid.h"
-// #include "ns3/core-module.h"
-// #include "ns3/applications-module.h"
-// #include "ns3/network-module.h"
-// #include "ns3/packet-sink.h"
-// #include "ns3/error-model.h"
-// #include "ns3/udp-header.h"
-// #include "ns3/enum.h"
-// #include "ns3/event-id.h"
-// #include "ns3/flow-monitor-helper.h"
-// #include "ns3/ipv4-global-routing-helper.h"
-// #include "ns3/traffic-control-module.h"
-// #include "ns3/flow-monitor-module.h"
 #include "client.hpp"
 #include "mapper.hpp"
 #include "master.hpp"
@@ -43,6 +15,7 @@ using namespace std;
 NS_LOG_COMPONENT_DEFINE ("WifiTopology");
 
 #define MAPPERS_COUNT 3
+#define MONITORE_TIME 1
 
 void
 ThroughputMonitor (FlowMonitorHelper *fmhelper, Ptr<FlowMonitor> flowMon, double em)
@@ -81,7 +54,7 @@ ThroughputMonitor (FlowMonitorHelper *fmhelper, Ptr<FlowMonitor> flowMon, double
                 << std::endl;
     }
 
-  Simulator::Schedule (Seconds (10), &ThroughputMonitor, fmhelper, flowMon, em);
+  Simulator::Schedule (Seconds (MONITORE_TIME), &ThroughputMonitor, fmhelper, flowMon, em);
 }
 
 void
@@ -118,7 +91,7 @@ AverageDelayMonitor (FlowMonitorHelper *fmhelper, Ptr<FlowMonitor> flowMon, doub
                 << std::endl;
     }
 
-  Simulator::Schedule (Seconds (10), &AverageDelayMonitor, fmhelper, flowMon, em);
+  Simulator::Schedule (Seconds (MONITORE_TIME), &AverageDelayMonitor, fmhelper, flowMon, em);
 }
 
 
@@ -128,7 +101,7 @@ main (int argc, char *argv[])
   double error = 0.000001;
   string bandwidth = "1Mbps";
   bool verbose = true;
-  double duration = 60.0;
+  double duration = 10;
   bool tracing = false;
 
   srand (time (NULL));

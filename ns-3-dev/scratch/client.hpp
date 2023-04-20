@@ -7,6 +7,8 @@
 #include "ns3/applications-module.h"
 #include "ns3/internet-module.h"
 
+#define TIME_SPACE  0.01
+
 EventId timeOut;
 bool useTimeOut = false;
 
@@ -57,9 +59,9 @@ GenerateTraffic (Ptr<Socket> socket, uint16_t data, uint16_t port, Ipv4Address i
   socket->Send (packet);
 
   if (useTimeOut)
-    timeOut = Simulator::Schedule (Seconds (0.1), &CheckTimeOut, socket, data, port, ip);
+    timeOut = Simulator::Schedule (Seconds (TIME_SPACE), &CheckTimeOut, socket, data, port, ip);
   else
-    Simulator::Schedule (Seconds (0.1), &GenerateTraffic, socket, rand () % 26, port, ip);
+    Simulator::Schedule (Seconds (TIME_SPACE), &GenerateTraffic, socket, rand () % 26, port, ip);
 }
 
 void
