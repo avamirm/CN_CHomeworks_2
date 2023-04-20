@@ -47,6 +47,11 @@ ThroughputMonitor (FlowMonitorHelper *fmhelper, Ptr<FlowMonitor> flowMon, double
                         stats->second.timeFirstTxPacket.GetSeconds ()) /
                        1024 / 1024
                 << " Mbps" << std::endl;
+      std::cout << "Sum of e2e Delay: " << stats->second.delaySum.GetSeconds () << " s"
+                << std::endl;
+      std::cout << "Average of e2e Delay: "
+                << stats->second.delaySum.GetSeconds () / stats->second.rxPackets << " s"
+                << std::endl;
 
       i++;
 
@@ -224,7 +229,7 @@ main (int argc, char *argv[])
   flowMonitor = flowHelper.InstallAll ();
 
   ThroughputMonitor (&flowHelper, flowMonitor, error);
-  AverageDelayMonitor (&flowHelper, flowMonitor, error);
+  // AverageDelayMonitor (&flowHelper, flowMonitor, error);
 
   Simulator::Stop (Seconds (duration));
   Simulator::Run ();

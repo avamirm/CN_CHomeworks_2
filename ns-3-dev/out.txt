@@ -3,40 +3,13 @@ Waf: Entering directory `/mnt/d/Term6/CN/CA2/CN_CHomeworks_2/ns-3-dev/build'
 [2835/2874] Linking build/scratch/scratch-simulator
 Waf: Leaving directory `/mnt/d/Term6/CN/CA2/CN_CHomeworks_2/ns-3-dev/build'
 Build commands will be stored in build/compile_commands.json
-'build' finished successfully (1m1.687s)
+'build' finished successfully (28.238s)
 Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
 Tx Packets = 100
 Rx Packets = 87
 Duration		: 0.990066
 Last Received Packet	: 0.990066 Seconds
 Throughput: 0.024135 Mbps
----------------------------------------------------------------------------
-Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
-Tx Packets = 1
-Rx Packets = 0
-Duration		: 0
-Last Received Packet	: 0 Seconds
-Throughput: -nan Mbps
----------------------------------------------------------------------------
-Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
-Tx Packets = 1
-Rx Packets = 0
-Duration		: 0
-Last Received Packet	: 0 Seconds
-Throughput: -nan Mbps
----------------------------------------------------------------------------
-Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
-Tx Packets = 1
-Rx Packets = 0
-Duration		: 0
-Last Received Packet	: 0 Seconds
-Throughput: -nan Mbps
----------------------------------------------------------------------------
-Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
-Tx Packets = 100
-Rx Packets = 87
-Duration		: 0.990066
-Last Received Packet	: 0.990066 Seconds
 Sum of e2e Delay: 0.00854785 s
 Average of e2e Delay: 9.82512e-05 s
 ---------------------------------------------------------------------------
@@ -45,6 +18,7 @@ Tx Packets = 1
 Rx Packets = 0
 Duration		: 0
 Last Received Packet	: 0 Seconds
+Throughput: -nan Mbps
 Sum of e2e Delay: 0 s
 Average of e2e Delay: -nan s
 ---------------------------------------------------------------------------
@@ -53,6 +27,7 @@ Tx Packets = 1
 Rx Packets = 0
 Duration		: 0
 Last Received Packet	: 0 Seconds
+Throughput: -nan Mbps
 Sum of e2e Delay: 0 s
 Average of e2e Delay: -nan s
 ---------------------------------------------------------------------------
@@ -61,217 +36,220 @@ Tx Packets = 1
 Rx Packets = 0
 Duration		: 0
 Last Received Packet	: 0 Seconds
+Throughput: -nan Mbps
 Sum of e2e Delay: 0 s
 Average of e2e Delay: -nan s
 ---------------------------------------------------------------------------
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: k
-Mapper 2 Sent: t
-Mapper 0 Sent: h
-Client Recieved: h
-Client Recieved: k
-Client Recieved: t
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: v
-Client Recieved: v
 Mapper 0 Sent: d
 Client Recieved: d
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: p
-Client Recieved: p
 Mapper 1 Sent: o
-Client Recieved: o
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: n
-Client Recieved: n
 Mapper 0 Sent: c
 Client Recieved: c
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 0 Sent: f
-Client Recieved: f
 Mapper 2 Sent: w
+Client Recieved: o
 Client Recieved: w
+Mapper 2 Sent: y
+Client Recieved: y
 Mapper 1 Sent: j
 Client Recieved: j
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: r
-Client Recieved: r
+Mapper 0 Sent: e
+Client Recieved: e
 Mapper 2 Sent: v
 Client Recieved: v
-Mapper 0 Sent: d
-Client Recieved: d
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 1 Sent: m
+Client Recieved: m
 Mapper 0 Sent: g
 Client Recieved: g
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 1 Sent: j
-Client Recieved: j
 Mapper 2 Sent: z
 Client Recieved: z
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: x
+Client Recieved: x
 Mapper 0 Sent: c
 Client Recieved: c
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: g
+Client Recieved: g
 Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
 Tx Packets = 200
 Rx Packets = 187
 Duration		: 1.99007
 Last Received Packet	: 1.99007 Seconds
 Throughput: 0.0258087 Mbps
+Sum of e2e Delay: 0.0182272 s
+Average of e2e Delay: 9.74719e-05 s
 ---------------------------------------------------------------------------
 Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
 Tx Packets = 103
@@ -279,349 +257,289 @@ Rx Packets = 103
 Duration		: 1.99018
 Last Received Packet	: 1.99018 Seconds
 Throughput: 0.0262826 Mbps
+Sum of e2e Delay: 1.02172 s
+Average of e2e Delay: 0.00991963 s
 ---------------------------------------------------------------------------
 Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
 Tx Packets = 103
 Rx Packets = 103
-Duration		: 1.99063
-Last Received Packet	: 1.99063 Seconds
-Throughput: 0.0262767 Mbps
+Duration		: 1.99065
+Last Received Packet	: 1.99065 Seconds
+Throughput: 0.0262764 Mbps
+Sum of e2e Delay: 1.0614 s
+Average of e2e Delay: 0.0103048 s
 ---------------------------------------------------------------------------
 Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
 Tx Packets = 103
 Rx Packets = 103
-Duration		: 1.99091
-Last Received Packet	: 1.99091 Seconds
-Throughput: 0.026273 Mbps
+Duration		: 1.99089
+Last Received Packet	: 1.99089 Seconds
+Throughput: 0.0262733 Mbps
+Sum of e2e Delay: 1.09 s
+Average of e2e Delay: 0.0105825 s
 ---------------------------------------------------------------------------
 Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
 Tx Packets = 52
 Rx Packets = 52
-Duration		: 0.989523
-Last Received Packet	: 1.99102 Seconds
-Throughput: 0.0208792 Mbps
+Duration		: 0.989498
+Last Received Packet	: 1.991 Seconds
+Throughput: 0.0208797 Mbps
+Sum of e2e Delay: 0.0187536 s
+Average of e2e Delay: 0.000360647 s
 ---------------------------------------------------------------------------
 Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
 Tx Packets = 52
 Rx Packets = 52
-Duration		: 0.98899
-Last Received Packet	: 1.99074 Seconds
-Throughput: 0.0208904 Mbps
+Duration		: 0.98901
+Last Received Packet	: 1.99076 Seconds
+Throughput: 0.02089 Mbps
+Sum of e2e Delay: 0.0221546 s
+Average of e2e Delay: 0.00042605 s
 ---------------------------------------------------------------------------
 Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
 Tx Packets = 52
 Rx Packets = 52
-Duration		: 0.98848
-Last Received Packet	: 1.9905 Seconds
-Throughput: 0.0209012 Mbps
+Duration		: 0.988468
+Last Received Packet	: 1.99049 Seconds
+Throughput: 0.0209014 Mbps
+Sum of e2e Delay: 0.016713 s
+Average of e2e Delay: 0.000321403 s
 ---------------------------------------------------------------------------
 Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 31
-Rx Packets = 31
-Duration		: 0.986783
-Last Received Packet	: 1.99115 Seconds
-Throughput: 0.00862845 Mbps
+Tx Packets = 33
+Rx Packets = 33
+Duration		: 0.986866
+Last Received Packet	: 1.99124 Seconds
+Throughput: 0.00918435 Mbps
+Sum of e2e Delay: 0.0367309 s
+Average of e2e Delay: 0.00111306 s
 ---------------------------------------------------------------------------
 Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 40
-Rx Packets = 40
-Duration		: 0.956827
-Last Received Packet	: 1.97154 Seconds
-Throughput: 0.011482 Mbps
+Tx Packets = 43
+Rx Packets = 43
+Duration		: 0.9661
+Last Received Packet	: 1.98081 Seconds
+Throughput: 0.0122247 Mbps
+Sum of e2e Delay: 0.0377802 s
+Average of e2e Delay: 0.000878609 s
 ---------------------------------------------------------------------------
 Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 30
-Rx Packets = 30
-Duration		: 0.96471
-Last Received Packet	: 1.98089 Seconds
-Throughput: 0.00854117 Mbps
+Tx Packets = 25
+Rx Packets = 25
+Duration		: 0.939876
+Last Received Packet	: 1.96075 Seconds
+Throughput: 0.0073057 Mbps
+Sum of e2e Delay: 0.018159 s
+Average of e2e Delay: 0.000726359 s
 ---------------------------------------------------------------------------
-Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
-Tx Packets = 200
-Rx Packets = 187
-Duration		: 1.99007
-Last Received Packet	: 1.99007 Seconds
-Sum of e2e Delay: 0.0180911 s
-Average of e2e Delay: 9.67437e-05 s
----------------------------------------------------------------------------
-Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
-Tx Packets = 103
-Rx Packets = 103
-Duration		: 1.99018
-Last Received Packet	: 1.99018 Seconds
-Sum of e2e Delay: 1.0217 s
-Average of e2e Delay: 0.00991946 s
----------------------------------------------------------------------------
-Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
-Tx Packets = 103
-Rx Packets = 103
-Duration		: 1.99063
-Last Received Packet	: 1.99063 Seconds
-Sum of e2e Delay: 1.06174 s
-Average of e2e Delay: 0.0103081 s
----------------------------------------------------------------------------
-Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
-Tx Packets = 103
-Rx Packets = 103
-Duration		: 1.99091
-Last Received Packet	: 1.99091 Seconds
-Sum of e2e Delay: 1.08913 s
-Average of e2e Delay: 0.010574 s
----------------------------------------------------------------------------
-Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
-Tx Packets = 52
-Rx Packets = 52
-Duration		: 0.989523
-Last Received Packet	: 1.99102 Seconds
-Sum of e2e Delay: 0.0197519 s
-Average of e2e Delay: 0.000379844 s
----------------------------------------------------------------------------
-Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
-Tx Packets = 52
-Rx Packets = 52
-Duration		: 0.98899
-Last Received Packet	: 1.99074 Seconds
-Sum of e2e Delay: 0.0255878 s
-Average of e2e Delay: 0.000492074 s
----------------------------------------------------------------------------
-Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
-Tx Packets = 52
-Rx Packets = 52
-Duration		: 0.98848
-Last Received Packet	: 1.9905 Seconds
-Sum of e2e Delay: 0.016683 s
-Average of e2e Delay: 0.000320826 s
----------------------------------------------------------------------------
-Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 31
-Rx Packets = 31
-Duration		: 0.986783
-Last Received Packet	: 1.99115 Seconds
-Sum of e2e Delay: 0.0326357 s
-Average of e2e Delay: 0.00105276 s
----------------------------------------------------------------------------
-Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 40
-Rx Packets = 40
-Duration		: 0.956827
-Last Received Packet	: 1.97154 Seconds
-Sum of e2e Delay: 0.0365468 s
-Average of e2e Delay: 0.000913671 s
----------------------------------------------------------------------------
-Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 30
-Rx Packets = 30
-Duration		: 0.96471
-Last Received Packet	: 1.98089 Seconds
-Sum of e2e Delay: 0.0198592 s
-Average of e2e Delay: 0.000661975 s
----------------------------------------------------------------------------
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: x
-Client Recieved: x
 Mapper 1 Sent: r
 Client Recieved: r
-Mapper 2 Sent: x
-Client Recieved: x
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 2 Sent: w
+Client Recieved: w
 Mapper 1 Sent: l
 Client Recieved: l
 Mapper 2 Sent: w
 Client Recieved: w
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: f
-Client Recieved: f
 Mapper 0 Sent: i
 Client Recieved: i
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: n
-Client Recieved: n
+Mapper 2 Sent: z
+Client Recieved: z
 Mapper 0 Sent: g
 Client Recieved: g
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: a
+Client Recieved: a
 Mapper 2 Sent: t
 Client Recieved: t
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: o
-Client Recieved: o
 Mapper 2 Sent: w
 Client Recieved: w
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 0 Sent: g
-Client Recieved: g
 Mapper 1 Sent: m
 Client Recieved: m
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 0 Sent: i
-Client Recieved: i
 Mapper 1 Sent: k
 Client Recieved: k
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 1 Sent: p
-Client Recieved: p
+Mapper 2 Sent: w
+Client Recieved: w
 Mapper 0 Sent: e
 Client Recieved: e
-Mapper 2 Sent: y
-Client Recieved: y
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: e
+Client Recieved: e
 Mapper 2 Sent: t
 Client Recieved: t
+Mapper 2 Sent: v
+Client Recieved: v
 Mapper 0 Sent: e
 Client Recieved: e
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 2 Sent: x
+Client Recieved: x
 Mapper 0 Sent: e
 Client Recieved: e
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: h
-Client Recieved: h
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: v
+Client Recieved: v
 Mapper 2 Sent: u
 Client Recieved: u
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 1 Sent: q
+Client Recieved: q
 Mapper 1 Sent: l
 Client Recieved: l
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 0 Sent: h
+Client Recieved: h
 Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
 Tx Packets = 300
 Rx Packets = 287
 Duration		: 2.99007
 Last Received Packet	: 2.99007 Seconds
 Throughput: 0.0263629 Mbps
+Sum of e2e Delay: 0.024828 s
+Average of e2e Delay: 8.65087e-05 s
 ---------------------------------------------------------------------------
 Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
 Tx Packets = 203
@@ -629,349 +547,289 @@ Rx Packets = 203
 Duration		: 2.99018
 Last Received Packet	: 2.99018 Seconds
 Throughput: 0.0328019 Mbps
+Sum of e2e Delay: 1.03312 s
+Average of e2e Delay: 0.00508927 s
 ---------------------------------------------------------------------------
 Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
 Tx Packets = 203
 Rx Packets = 203
-Duration		: 2.99045
-Last Received Packet	: 2.99045 Seconds
-Throughput: 0.0327989 Mbps
+Duration		: 2.99054
+Last Received Packet	: 2.99054 Seconds
+Throughput: 0.032798 Mbps
+Sum of e2e Delay: 1.10058 s
+Average of e2e Delay: 0.00542158 s
 ---------------------------------------------------------------------------
 Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
 Tx Packets = 203
 Rx Packets = 203
-Duration		: 2.9909
-Last Received Packet	: 2.9909 Seconds
-Throughput: 0.032794 Mbps
+Duration		: 2.99083
+Last Received Packet	: 2.99083 Seconds
+Throughput: 0.0327948 Mbps
+Sum of e2e Delay: 1.15795 s
+Average of e2e Delay: 0.00570418 s
 ---------------------------------------------------------------------------
 Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
 Tx Packets = 102
 Rx Packets = 102
-Duration		: 1.98951
-Last Received Packet	: 2.99101 Seconds
-Throughput: 0.0203552 Mbps
+Duration		: 1.98944
+Last Received Packet	: 2.99094 Seconds
+Throughput: 0.0203559 Mbps
+Sum of e2e Delay: 0.0304737 s
+Average of e2e Delay: 0.000298762 s
 ---------------------------------------------------------------------------
 Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
 Tx Packets = 102
 Rx Packets = 102
-Duration		: 1.98896
-Last Received Packet	: 2.99071 Seconds
-Throughput: 0.0203608 Mbps
+Duration		: 1.9889
+Last Received Packet	: 2.99065 Seconds
+Throughput: 0.0203614 Mbps
+Sum of e2e Delay: 0.0341701 s
+Average of e2e Delay: 0.000335001 s
 ---------------------------------------------------------------------------
 Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
 Tx Packets = 102
 Rx Packets = 102
-Duration		: 1.98827
-Last Received Packet	: 2.99029 Seconds
-Throughput: 0.0203678 Mbps
+Duration		: 1.98839
+Last Received Packet	: 2.99041 Seconds
+Throughput: 0.0203666 Mbps
+Sum of e2e Delay: 0.0291229 s
+Average of e2e Delay: 0.000285519 s
 ---------------------------------------------------------------------------
 Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 63
-Rx Packets = 63
-Duration		: 1.96684
-Last Received Packet	: 2.97121 Seconds
-Throughput: 0.00879759 Mbps
+Tx Packets = 67
+Rx Packets = 67
+Duration		: 1.98674
+Last Received Packet	: 2.99111 Seconds
+Throughput: 0.00926248 Mbps
+Sum of e2e Delay: 0.0662479 s
+Average of e2e Delay: 0.000988774 s
 ---------------------------------------------------------------------------
 Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
 Tx Packets = 73
 Rx Packets = 73
-Duration		: 1.97648
-Last Received Packet	: 2.99119 Seconds
-Throughput: 0.0101443 Mbps
+Duration		: 1.92625
+Last Received Packet	: 2.94096 Seconds
+Throughput: 0.0104088 Mbps
+Sum of e2e Delay: 0.0558843 s
+Average of e2e Delay: 0.000765539 s
 ---------------------------------------------------------------------------
 Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 65
-Rx Packets = 65
-Duration		: 1.96475
-Last Received Packet	: 2.98093 Seconds
-Throughput: 0.00908654 Mbps
+Tx Packets = 61
+Rx Packets = 61
+Duration		: 1.93985
+Last Received Packet	: 2.96073 Seconds
+Throughput: 0.00863683 Mbps
+Sum of e2e Delay: 0.0294763 s
+Average of e2e Delay: 0.000483218 s
 ---------------------------------------------------------------------------
-Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
-Tx Packets = 300
-Rx Packets = 287
-Duration		: 2.99007
-Last Received Packet	: 2.99007 Seconds
-Sum of e2e Delay: 0.0246918 s
-Average of e2e Delay: 8.60342e-05 s
----------------------------------------------------------------------------
-Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
-Tx Packets = 203
-Rx Packets = 203
-Duration		: 2.99018
-Last Received Packet	: 2.99018 Seconds
-Sum of e2e Delay: 1.0331 s
-Average of e2e Delay: 0.00508918 s
----------------------------------------------------------------------------
-Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
-Tx Packets = 203
-Rx Packets = 203
-Duration		: 2.99045
-Last Received Packet	: 2.99045 Seconds
-Sum of e2e Delay: 1.10035 s
-Average of e2e Delay: 0.00542043 s
----------------------------------------------------------------------------
-Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
-Tx Packets = 203
-Rx Packets = 203
-Duration		: 2.9909
-Last Received Packet	: 2.9909 Seconds
-Sum of e2e Delay: 1.15705 s
-Average of e2e Delay: 0.00569977 s
----------------------------------------------------------------------------
-Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
-Tx Packets = 102
-Rx Packets = 102
-Duration		: 1.98951
-Last Received Packet	: 2.99101 Seconds
-Sum of e2e Delay: 0.0303258 s
-Average of e2e Delay: 0.000297311 s
----------------------------------------------------------------------------
-Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
-Tx Packets = 102
-Rx Packets = 102
-Duration		: 1.98896
-Last Received Packet	: 2.99071 Seconds
-Sum of e2e Delay: 0.0396095 s
-Average of e2e Delay: 0.000388328 s
----------------------------------------------------------------------------
-Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
-Tx Packets = 102
-Rx Packets = 102
-Duration		: 1.98827
-Last Received Packet	: 2.99029 Seconds
-Sum of e2e Delay: 0.0288368 s
-Average of e2e Delay: 0.000282714 s
----------------------------------------------------------------------------
-Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 63
-Rx Packets = 63
-Duration		: 1.96684
-Last Received Packet	: 2.97121 Seconds
-Sum of e2e Delay: 0.0594744 s
-Average of e2e Delay: 0.000944039 s
----------------------------------------------------------------------------
-Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 73
-Rx Packets = 73
-Duration		: 1.97648
-Last Received Packet	: 2.99119 Seconds
-Sum of e2e Delay: 0.0569821 s
-Average of e2e Delay: 0.000780576 s
----------------------------------------------------------------------------
-Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 65
-Rx Packets = 65
-Duration		: 1.96475
-Last Received Packet	: 2.98093 Seconds
-Sum of e2e Delay: 0.0321237 s
-Average of e2e Delay: 0.000494211 s
----------------------------------------------------------------------------
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: v
-Client Recieved: v
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: p
+Client Recieved: p
 Mapper 1 Sent: j
 Client Recieved: j
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: b
-Client Recieved: b
 Mapper 1 Sent: n
 Client Recieved: n
+Mapper 1 Sent: p
+Client Recieved: p
 Mapper 1 Sent: n
 Client Recieved: n
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: h
-Client Recieved: h
 Mapper 0 Sent: f
 Client Recieved: f
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: q
-Client Recieved: q
 Mapper 2 Sent: t
 Client Recieved: t
-Mapper 0 Sent: b
-Client Recieved: b
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 1 Sent: o
+Client Recieved: o
 Mapper 1 Sent: p
 Client Recieved: p
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 0 Sent: c
+Client Recieved: c
 Mapper 1 Sent: n
 Client Recieved: n
 Mapper 1 Sent: r
 Client Recieved: r
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 2 Sent: z
-Client Recieved: z
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 2 Sent: x
+Client Recieved: x
 Mapper 1 Sent: n
 Client Recieved: n
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: d
+Client Recieved: d
 Mapper 0 Sent: g
 Client Recieved: g
 Mapper 2 Sent: x
 Client Recieved: x
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: k
-Client Recieved: k
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: q
+Client Recieved: q
 Mapper 1 Sent: m
 Client Recieved: m
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: a
+Client Recieved: a
 Mapper 2 Sent: u
 Client Recieved: u
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 2 Sent: x
+Client Recieved: x
 Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
 Tx Packets = 400
 Rx Packets = 387
 Duration		: 3.99007
 Last Received Packet	: 3.99007 Seconds
 Throughput: 0.0266393 Mbps
+Sum of e2e Delay: 0.0314285 s
+Average of e2e Delay: 8.12106e-05 s
 ---------------------------------------------------------------------------
 Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
 Tx Packets = 303
@@ -979,34 +837,44 @@ Rx Packets = 303
 Duration		: 3.99018
 Last Received Packet	: 3.99018 Seconds
 Throughput: 0.0360535 Mbps
+Sum of e2e Delay: 1.04466 s
+Average of e2e Delay: 0.00344771 s
 ---------------------------------------------------------------------------
 Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
 Tx Packets = 303
 Rx Packets = 303
-Duration		: 3.99051
-Last Received Packet	: 3.99051 Seconds
-Throughput: 0.0360505 Mbps
+Duration		: 3.99044
+Last Received Packet	: 3.99044 Seconds
+Throughput: 0.0360512 Mbps
+Sum of e2e Delay: 1.14046 s
+Average of e2e Delay: 0.00376391 s
 ---------------------------------------------------------------------------
 Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
 Tx Packets = 303
 Rx Packets = 303
-Duration		: 3.99086
-Last Received Packet	: 3.99086 Seconds
-Throughput: 0.0360473 Mbps
+Duration		: 3.99077
+Last Received Packet	: 3.99077 Seconds
+Throughput: 0.0360481 Mbps
+Sum of e2e Delay: 1.22785 s
+Average of e2e Delay: 0.0040523 s
 ---------------------------------------------------------------------------
 Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
 Tx Packets = 152
 Rx Packets = 152
-Duration		: 2.98982
-Last Received Packet	: 3.99132 Seconds
-Throughput: 0.0201796 Mbps
+Duration		: 2.99007
+Last Received Packet	: 3.99157 Seconds
+Throughput: 0.0201779 Mbps
+Sum of e2e Delay: 0.0415466 s
+Average of e2e Delay: 0.000273333 s
 ---------------------------------------------------------------------------
 Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
 Tx Packets = 152
 Rx Packets = 152
-Duration		: 2.98887
-Last Received Packet	: 3.99062 Seconds
-Throughput: 0.020186 Mbps
+Duration		: 2.9888
+Last Received Packet	: 3.99055 Seconds
+Throughput: 0.0201865 Mbps
+Sum of e2e Delay: 0.0482917 s
+Average of e2e Delay: 0.000317709 s
 ---------------------------------------------------------------------------
 Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
 Tx Packets = 152
@@ -1014,314 +882,244 @@ Rx Packets = 152
 Duration		: 2.98827
 Last Received Packet	: 3.99029 Seconds
 Throughput: 0.02019 Mbps
+Sum of e2e Delay: 0.0421829 s
+Average of e2e Delay: 0.000277519 s
 ---------------------------------------------------------------------------
 Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 96
-Rx Packets = 96
-Duration		: 2.9366
-Last Received Packet	: 3.94097 Seconds
-Throughput: 0.00897881 Mbps
+Tx Packets = 102
+Rx Packets = 102
+Duration		: 2.9668
+Last Received Packet	: 3.97117 Seconds
+Throughput: 0.00944289 Mbps
+Sum of e2e Delay: 0.0957938 s
+Average of e2e Delay: 0.000939155 s
 ---------------------------------------------------------------------------
 Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 106
-Rx Packets = 106
-Duration		: 2.96646
-Last Received Packet	: 3.98117 Seconds
-Throughput: 0.0098143 Mbps
+Tx Packets = 111
+Rx Packets = 111
+Duration		: 2.96623
+Last Received Packet	: 3.98094 Seconds
+Throughput: 0.010278 Mbps
+Sum of e2e Delay: 0.078364 s
+Average of e2e Delay: 0.000705982 s
 ---------------------------------------------------------------------------
 Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 99
-Rx Packets = 99
-Duration		: 2.9749
-Last Received Packet	: 3.99108 Seconds
-Throughput: 0.0091402 Mbps
+Tx Packets = 88
+Rx Packets = 88
+Duration		: 2.9705
+Last Received Packet	: 3.99138 Seconds
+Throughput: 0.00813664 Mbps
+Sum of e2e Delay: 0.0378232 s
+Average of e2e Delay: 0.000429809 s
 ---------------------------------------------------------------------------
-Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
-Tx Packets = 400
-Rx Packets = 387
-Duration		: 3.99007
-Last Received Packet	: 3.99007 Seconds
-Sum of e2e Delay: 0.0312923 s
-Average of e2e Delay: 8.08588e-05 s
----------------------------------------------------------------------------
-Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
-Tx Packets = 303
-Rx Packets = 303
-Duration		: 3.99018
-Last Received Packet	: 3.99018 Seconds
-Sum of e2e Delay: 1.04464 s
-Average of e2e Delay: 0.00344765 s
----------------------------------------------------------------------------
-Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
-Tx Packets = 303
-Rx Packets = 303
-Duration		: 3.99051
-Last Received Packet	: 3.99051 Seconds
-Sum of e2e Delay: 1.13981 s
-Average of e2e Delay: 0.00376175 s
----------------------------------------------------------------------------
-Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
-Tx Packets = 303
-Rx Packets = 303
-Duration		: 3.99086
-Last Received Packet	: 3.99086 Seconds
-Sum of e2e Delay: 1.22453 s
-Average of e2e Delay: 0.00404137 s
----------------------------------------------------------------------------
-Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
-Tx Packets = 152
-Rx Packets = 152
-Duration		: 2.98982
-Last Received Packet	: 3.99132 Seconds
-Sum of e2e Delay: 0.0399065 s
-Average of e2e Delay: 0.000262543 s
----------------------------------------------------------------------------
-Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
-Tx Packets = 152
-Rx Packets = 152
-Duration		: 2.98887
-Last Received Packet	: 3.99062 Seconds
-Sum of e2e Delay: 0.053571 s
-Average of e2e Delay: 0.000352441 s
----------------------------------------------------------------------------
-Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
-Tx Packets = 152
-Rx Packets = 152
-Duration		: 2.98827
-Last Received Packet	: 3.99029 Seconds
-Sum of e2e Delay: 0.0419098 s
-Average of e2e Delay: 0.000275723 s
----------------------------------------------------------------------------
-Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 96
-Rx Packets = 96
-Duration		: 2.9366
-Last Received Packet	: 3.94097 Seconds
-Sum of e2e Delay: 0.0879423 s
-Average of e2e Delay: 0.000916065 s
----------------------------------------------------------------------------
-Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 106
-Rx Packets = 106
-Duration		: 2.96646
-Last Received Packet	: 3.98117 Seconds
-Sum of e2e Delay: 0.0778263 s
-Average of e2e Delay: 0.00073421 s
----------------------------------------------------------------------------
-Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 99
-Rx Packets = 99
-Duration		: 2.9749
-Last Received Packet	: 3.99108 Seconds
-Sum of e2e Delay: 0.043319 s
-Average of e2e Delay: 0.000437566 s
----------------------------------------------------------------------------
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: f
-Client Recieved: f
+Mapper 0 Sent: b
+Client Recieved: b
 Mapper 0 Sent: c
 Client Recieved: c
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: t
-Client Recieved: t
 Mapper 2 Sent: w
 Client Recieved: w
-Mapper 2 Sent: u
-Client Recieved: u
 Mapper 2 Sent: t
 Client Recieved: t
 Mapper 2 Sent: s
 Client Recieved: s
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 1 Sent: j
-Client Recieved: j
 Mapper 1 Sent: r
 Client Recieved: r
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: k
-Client Recieved: k
 Mapper 0 Sent: h
 Client Recieved: h
-Mapper 0 Sent: c
-Client Recieved: c
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: k
+Client Recieved: k
 Mapper 0 Sent: i
 Client Recieved: i
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: g
-Client Recieved: g
 Mapper 2 Sent: y
 Client Recieved: y
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: e
+Client Recieved: e
 Mapper 2 Sent: t
 Client Recieved: t
 Mapper 1 Sent: p
 Client Recieved: p
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 2 Sent: t
-Client Recieved: t
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 1 Sent: k
+Client Recieved: k
 Mapper 1 Sent: j
 Client Recieved: j
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 2 Sent: u
+Client Recieved: u
 Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
 Tx Packets = 500
 Rx Packets = 487
 Duration		: 4.99007
 Last Received Packet	: 4.99007 Seconds
 Throughput: 0.026805 Mbps
+Sum of e2e Delay: 0.0380294 s
+Average of e2e Delay: 7.8089e-05 s
 ---------------------------------------------------------------------------
 Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
 Tx Packets = 403
@@ -1329,34 +1127,44 @@ Rx Packets = 403
 Duration		: 4.99018
 Last Received Packet	: 4.99018 Seconds
 Throughput: 0.0380019 Mbps
+Sum of e2e Delay: 1.05606 s
+Average of e2e Delay: 0.00262049 s
 ---------------------------------------------------------------------------
 Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
 Tx Packets = 403
 Rx Packets = 403
-Duration		: 4.99045
-Last Received Packet	: 4.99045 Seconds
-Throughput: 0.0379998 Mbps
+Duration		: 4.99053
+Last Received Packet	: 4.99053 Seconds
+Throughput: 0.0379993 Mbps
+Sum of e2e Delay: 1.18022 s
+Average of e2e Delay: 0.00292858 s
 ---------------------------------------------------------------------------
 Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
 Tx Packets = 403
 Rx Packets = 403
-Duration		: 4.99091
-Last Received Packet	: 4.99091 Seconds
-Throughput: 0.0379963 Mbps
+Duration		: 4.99079
+Last Received Packet	: 4.99079 Seconds
+Throughput: 0.0379972 Mbps
+Sum of e2e Delay: 1.2984 s
+Average of e2e Delay: 0.00322185 s
 ---------------------------------------------------------------------------
 Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
 Tx Packets = 202
 Rx Packets = 202
-Duration		: 3.98952
-Last Received Packet	: 4.99102 Seconds
-Throughput: 0.0200951 Mbps
+Duration		: 3.9897
+Last Received Packet	: 4.9912 Seconds
+Throughput: 0.0200941 Mbps
+Sum of e2e Delay: 0.0516713 s
+Average of e2e Delay: 0.000255799 s
 ---------------------------------------------------------------------------
 Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
 Tx Packets = 202
 Rx Packets = 202
-Duration		: 3.98902
-Last Received Packet	: 4.99078 Seconds
-Throughput: 0.0200976 Mbps
+Duration		: 3.98889
+Last Received Packet	: 4.99064 Seconds
+Throughput: 0.0200983 Mbps
+Sum of e2e Delay: 0.0592519 s
+Average of e2e Delay: 0.000293326 s
 ---------------------------------------------------------------------------
 Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
 Tx Packets = 202
@@ -1364,314 +1172,244 @@ Rx Packets = 202
 Duration		: 3.98827
 Last Received Packet	: 4.99029 Seconds
 Throughput: 0.0201014 Mbps
+Sum of e2e Delay: 0.057311 s
+Average of e2e Delay: 0.000283718 s
 ---------------------------------------------------------------------------
 Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 131
-Rx Packets = 131
+Tx Packets = 141
+Rx Packets = 141
 Duration		: 3.96717
 Last Received Packet	: 4.97154 Seconds
-Throughput: 0.0090695 Mbps
+Throughput: 0.00976183 Mbps
+Sum of e2e Delay: 0.131231 s
+Average of e2e Delay: 0.000930719 s
 ---------------------------------------------------------------------------
 Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 135
-Rx Packets = 135
-Duration		: 3.97646
-Last Received Packet	: 4.99117 Seconds
-Throughput: 0.00932459 Mbps
+Tx Packets = 139
+Rx Packets = 139
+Duration		: 3.96621
+Last Received Packet	: 4.98092 Seconds
+Throughput: 0.00962569 Mbps
+Sum of e2e Delay: 0.094907 s
+Average of e2e Delay: 0.000682784 s
 ---------------------------------------------------------------------------
 Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 135
-Rx Packets = 135
-Duration		: 3.96468
-Last Received Packet	: 4.98086 Seconds
-Throughput: 0.0093523 Mbps
+Tx Packets = 121
+Rx Packets = 121
+Duration		: 3.97018
+Last Received Packet	: 4.99105 Seconds
+Throughput: 0.00837082 Mbps
+Sum of e2e Delay: 0.0495176 s
+Average of e2e Delay: 0.000409236 s
 ---------------------------------------------------------------------------
-Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
-Tx Packets = 500
-Rx Packets = 487
-Duration		: 4.99007
-Last Received Packet	: 4.99007 Seconds
-Sum of e2e Delay: 0.0378932 s
-Average of e2e Delay: 7.78094e-05 s
----------------------------------------------------------------------------
-Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
-Tx Packets = 403
-Rx Packets = 403
-Duration		: 4.99018
-Last Received Packet	: 4.99018 Seconds
-Sum of e2e Delay: 1.05604 s
-Average of e2e Delay: 0.00262044 s
----------------------------------------------------------------------------
-Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
-Tx Packets = 403
-Rx Packets = 403
-Duration		: 4.99045
-Last Received Packet	: 4.99045 Seconds
-Sum of e2e Delay: 1.17978 s
-Average of e2e Delay: 0.0029275 s
----------------------------------------------------------------------------
-Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
-Tx Packets = 403
-Rx Packets = 403
-Duration		: 4.99091
-Last Received Packet	: 4.99091 Seconds
-Sum of e2e Delay: 1.29212 s
-Average of e2e Delay: 0.00320626 s
----------------------------------------------------------------------------
-Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
-Tx Packets = 202
-Rx Packets = 202
-Duration		: 3.98952
-Last Received Packet	: 4.99102 Seconds
-Sum of e2e Delay: 0.0507504 s
-Average of e2e Delay: 0.000251239 s
----------------------------------------------------------------------------
-Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
-Tx Packets = 202
-Rx Packets = 202
-Duration		: 3.98902
-Last Received Packet	: 4.99078 Seconds
-Sum of e2e Delay: 0.0636794 s
-Average of e2e Delay: 0.000315244 s
----------------------------------------------------------------------------
-Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
-Tx Packets = 202
-Rx Packets = 202
-Duration		: 3.98827
-Last Received Packet	: 4.99029 Seconds
-Sum of e2e Delay: 0.057267 s
-Average of e2e Delay: 0.0002835 s
----------------------------------------------------------------------------
-Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 131
-Rx Packets = 131
-Duration		: 3.96717
-Last Received Packet	: 4.97154 Seconds
-Sum of e2e Delay: 0.117076 s
-Average of e2e Delay: 0.000893712 s
----------------------------------------------------------------------------
-Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 135
-Rx Packets = 135
-Duration		: 3.97646
-Last Received Packet	: 4.99117 Seconds
-Sum of e2e Delay: 0.0953295 s
-Average of e2e Delay: 0.000706144 s
----------------------------------------------------------------------------
-Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 135
-Rx Packets = 135
-Duration		: 3.96468
-Last Received Packet	: 4.98086 Seconds
-Sum of e2e Delay: 0.0550484 s
-Average of e2e Delay: 0.000407766 s
----------------------------------------------------------------------------
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 2 Sent: z
-Client Recieved: z
 Mapper 0 Sent: f
 Client Recieved: f
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 0 Sent: c
-Client Recieved: c
 Mapper 1 Sent: q
 Client Recieved: q
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: n
-Client Recieved: n
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 2 Sent: u
+Client Recieved: u
 Mapper 0 Sent: a
 Client Recieved: a
 Mapper 1 Sent: n
 Client Recieved: n
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: q
+Client Recieved: q
 Mapper 1 Sent: n
 Client Recieved: n
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 1 Sent: q
+Client Recieved: q
 Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
 Tx Packets = 600
 Rx Packets = 587
 Duration		: 5.99007
 Last Received Packet	: 5.99007 Seconds
 Throughput: 0.0269153 Mbps
+Sum of e2e Delay: 0.0446306 s
+Average of e2e Delay: 7.60317e-05 s
 ---------------------------------------------------------------------------
 Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
 Tx Packets = 503
@@ -1679,34 +1417,44 @@ Rx Packets = 503
 Duration		: 5.99018
 Last Received Packet	: 5.99018 Seconds
 Throughput: 0.0392998 Mbps
+Sum of e2e Delay: 1.06746 s
+Average of e2e Delay: 0.00212218 s
 ---------------------------------------------------------------------------
 Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
 Tx Packets = 503
 Rx Packets = 503
-Duration		: 5.99045
-Last Received Packet	: 5.99045 Seconds
-Throughput: 0.039298 Mbps
+Duration		: 5.99042
+Last Received Packet	: 5.99042 Seconds
+Throughput: 0.0392982 Mbps
+Sum of e2e Delay: 1.21888 s
+Average of e2e Delay: 0.00242322 s
 ---------------------------------------------------------------------------
 Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
 Tx Packets = 503
 Rx Packets = 503
-Duration		: 5.99071
-Last Received Packet	: 5.99071 Seconds
-Throughput: 0.0392963 Mbps
+Duration		: 5.99086
+Last Received Packet	: 5.99086 Seconds
+Throughput: 0.0392953 Mbps
+Sum of e2e Delay: 1.36656 s
+Average of e2e Delay: 0.00271682 s
 ---------------------------------------------------------------------------
 Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
 Tx Packets = 252
 Rx Packets = 252
-Duration		: 4.98933
-Last Received Packet	: 5.99083 Seconds
-Throughput: 0.020044 Mbps
+Duration		: 4.98948
+Last Received Packet	: 5.99098 Seconds
+Throughput: 0.0200434 Mbps
+Sum of e2e Delay: 0.0624671 s
+Average of e2e Delay: 0.000247885 s
 ---------------------------------------------------------------------------
 Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
 Tx Packets = 252
 Rx Packets = 252
-Duration		: 4.98922
-Last Received Packet	: 5.99098 Seconds
-Throughput: 0.0200444 Mbps
+Duration		: 4.98894
+Last Received Packet	: 5.9907 Seconds
+Throughput: 0.0200455 Mbps
+Sum of e2e Delay: 0.0718246 s
+Average of e2e Delay: 0.000285018 s
 ---------------------------------------------------------------------------
 Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
 Tx Packets = 252
@@ -1714,314 +1462,244 @@ Rx Packets = 252
 Duration		: 4.98827
 Last Received Packet	: 5.99029 Seconds
 Throughput: 0.0200482 Mbps
+Sum of e2e Delay: 0.0673937 s
+Average of e2e Delay: 0.000267435 s
 ---------------------------------------------------------------------------
 Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 167
-Rx Packets = 167
-Duration		: 4.96712
-Last Received Packet	: 5.97149 Seconds
-Throughput: 0.00923431 Mbps
+Tx Packets = 169
+Rx Packets = 169
+Duration		: 4.95645
+Last Received Packet	: 5.96082 Seconds
+Throughput: 0.00936502 Mbps
+Sum of e2e Delay: 0.155499 s
+Average of e2e Delay: 0.000920112 s
 ---------------------------------------------------------------------------
 Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 170
-Rx Packets = 170
-Duration		: 4.97647
-Last Received Packet	: 5.99118 Seconds
-Throughput: 0.00938254 Mbps
+Tx Packets = 179
+Rx Packets = 179
+Duration		: 4.97651
+Last Received Packet	: 5.99122 Seconds
+Throughput: 0.00987917 Mbps
+Sum of e2e Delay: 0.118962 s
+Average of e2e Delay: 0.000664592 s
 ---------------------------------------------------------------------------
 Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 164
-Rx Packets = 164
-Duration		: 4.90467
-Last Received Packet	: 5.92085 Seconds
-Throughput: 0.00918389 Mbps
+Tx Packets = 153
+Rx Packets = 153
+Duration		: 4.95999
+Last Received Packet	: 5.98087 Seconds
+Throughput: 0.00847233 Mbps
+Sum of e2e Delay: 0.0593609 s
+Average of e2e Delay: 0.00038798 s
 ---------------------------------------------------------------------------
-Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
-Tx Packets = 600
-Rx Packets = 587
-Duration		: 5.99007
-Last Received Packet	: 5.99007 Seconds
-Sum of e2e Delay: 0.0444944 s
-Average of e2e Delay: 7.57997e-05 s
----------------------------------------------------------------------------
-Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
-Tx Packets = 503
-Rx Packets = 503
-Duration		: 5.99018
-Last Received Packet	: 5.99018 Seconds
-Sum of e2e Delay: 1.06744 s
-Average of e2e Delay: 0.00212215 s
----------------------------------------------------------------------------
-Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
-Tx Packets = 503
-Rx Packets = 503
-Duration		: 5.99045
-Last Received Packet	: 5.99045 Seconds
-Sum of e2e Delay: 1.21899 s
-Average of e2e Delay: 0.00242344 s
----------------------------------------------------------------------------
-Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
-Tx Packets = 503
-Rx Packets = 503
-Duration		: 5.99071
-Last Received Packet	: 5.99071 Seconds
-Sum of e2e Delay: 1.36017 s
-Average of e2e Delay: 0.00270411 s
----------------------------------------------------------------------------
-Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
-Tx Packets = 252
-Rx Packets = 252
-Duration		: 4.98933
-Last Received Packet	: 5.99083 Seconds
-Sum of e2e Delay: 0.0594938 s
-Average of e2e Delay: 0.000236087 s
----------------------------------------------------------------------------
-Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
-Tx Packets = 252
-Rx Packets = 252
-Duration		: 4.98922
-Last Received Packet	: 5.99098 Seconds
-Sum of e2e Delay: 0.0754498 s
-Average of e2e Delay: 0.000299404 s
----------------------------------------------------------------------------
-Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
-Tx Packets = 252
-Rx Packets = 252
-Duration		: 4.98827
-Last Received Packet	: 5.99029 Seconds
-Sum of e2e Delay: 0.0712481 s
-Average of e2e Delay: 0.000282731 s
----------------------------------------------------------------------------
-Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 167
-Rx Packets = 167
-Duration		: 4.96712
-Last Received Packet	: 5.97149 Seconds
-Sum of e2e Delay: 0.15055 s
-Average of e2e Delay: 0.000901495 s
----------------------------------------------------------------------------
-Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 170
-Rx Packets = 170
-Duration		: 4.97647
-Last Received Packet	: 5.99118 Seconds
-Sum of e2e Delay: 0.115842 s
-Average of e2e Delay: 0.000681424 s
----------------------------------------------------------------------------
-Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 164
-Rx Packets = 164
-Duration		: 4.90467
-Last Received Packet	: 5.92085 Seconds
-Sum of e2e Delay: 0.0642255 s
-Average of e2e Delay: 0.000391619 s
----------------------------------------------------------------------------
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: o
-Client Recieved: o
 Mapper 0 Sent: a
 Client Recieved: a
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: r
-Client Recieved: r
 Mapper 0 Sent: c
 Client Recieved: c
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: o
-Client Recieved: o
+Mapper 0 Sent: a
+Client Recieved: a
 Mapper 2 Sent: x
 Client Recieved: x
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 2 Sent: w
-Client Recieved: w
 Mapper 0 Sent: g
 Client Recieved: g
-Mapper 2 Sent: u
-Client Recieved: u
 Mapper 0 Sent: i
 Client Recieved: i
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 1 Sent: p
-Client Recieved: p
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: g
+Client Recieved: g
 Mapper 2 Sent: x
 Client Recieved: x
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: l
-Client Recieved: l
 Mapper 2 Sent: s
 Client Recieved: s
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: o
-Client Recieved: o
 Mapper 0 Sent: c
 Client Recieved: c
 Mapper 1 Sent: p
 Client Recieved: p
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: h
+Client Recieved: h
 Mapper 0 Sent: i
 Client Recieved: i
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: g
-Client Recieved: g
+Mapper 1 Sent: p
+Client Recieved: p
 Mapper 1 Sent: l
 Client Recieved: l
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 2 Sent: z
-Client Recieved: z
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 0 Sent: c
+Client Recieved: c
 Mapper 0 Sent: h
 Client Recieved: h
 Mapper 2 Sent: x
 Client Recieved: x
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: i
-Client Recieved: i
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: j
+Client Recieved: j
 Mapper 0 Sent: b
 Client Recieved: b
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 2 Sent: v
+Client Recieved: v
 Mapper 1 Sent: n
 Client Recieved: n
 Mapper 1 Sent: k
 Client Recieved: k
-Mapper 2 Sent: u
-Client Recieved: u
 Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
 Tx Packets = 700
 Rx Packets = 687
 Duration		: 6.99007
 Last Received Packet	: 6.99007 Seconds
 Throughput: 0.026994 Mbps
+Sum of e2e Delay: 0.0512321 s
+Average of e2e Delay: 7.45736e-05 s
 ---------------------------------------------------------------------------
 Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
 Tx Packets = 603
@@ -2029,6 +1707,8 @@ Rx Packets = 603
 Duration		: 6.99018
 Last Received Packet	: 6.99018 Seconds
 Throughput: 0.0402263 Mbps
+Sum of e2e Delay: 1.07899 s
+Average of e2e Delay: 0.00178937 s
 ---------------------------------------------------------------------------
 Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
 Tx Packets = 603
@@ -2036,27 +1716,35 @@ Rx Packets = 603
 Duration		: 6.99051
 Last Received Packet	: 6.99051 Seconds
 Throughput: 0.0402244 Mbps
+Sum of e2e Delay: 1.25719 s
+Average of e2e Delay: 0.0020849 s
 ---------------------------------------------------------------------------
 Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
 Tx Packets = 603
 Rx Packets = 603
-Duration		: 6.99085
-Last Received Packet	: 6.99085 Seconds
-Throughput: 0.0402224 Mbps
+Duration		: 6.99096
+Last Received Packet	: 6.99096 Seconds
+Throughput: 0.0402218 Mbps
+Sum of e2e Delay: 1.43362 s
+Average of e2e Delay: 0.00237748 s
 ---------------------------------------------------------------------------
 Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
 Tx Packets = 302
 Rx Packets = 302
-Duration		: 5.98981
-Last Received Packet	: 6.99131 Seconds
-Throughput: 0.0200077 Mbps
+Duration		: 5.98957
+Last Received Packet	: 6.99108 Seconds
+Throughput: 0.0200085 Mbps
+Sum of e2e Delay: 0.0729199 s
+Average of e2e Delay: 0.000241456 s
 ---------------------------------------------------------------------------
 Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
 Tx Packets = 302
 Rx Packets = 302
-Duration		: 5.98887
-Last Received Packet	: 6.99062 Seconds
-Throughput: 0.0200109 Mbps
+Duration		: 5.98899
+Last Received Packet	: 6.99074 Seconds
+Throughput: 0.0200105 Mbps
+Sum of e2e Delay: 0.0876776 s
+Average of e2e Delay: 0.000290323 s
 ---------------------------------------------------------------------------
 Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
 Tx Packets = 302
@@ -2064,314 +1752,244 @@ Rx Packets = 302
 Duration		: 5.98827
 Last Received Packet	: 6.99029 Seconds
 Throughput: 0.0200129 Mbps
+Sum of e2e Delay: 0.0807438 s
+Average of e2e Delay: 0.000267364 s
 ---------------------------------------------------------------------------
 Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 205
-Rx Packets = 205
+Tx Packets = 203
+Rx Packets = 203
 Duration		: 5.95655
 Last Received Packet	: 6.96092 Seconds
-Throughput: 0.00945261 Mbps
+Throughput: 0.00936039 Mbps
+Sum of e2e Delay: 0.183754 s
+Average of e2e Delay: 0.000905193 s
 ---------------------------------------------------------------------------
 Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 207
-Rx Packets = 207
-Duration		: 5.96609
-Last Received Packet	: 6.9808 Seconds
-Throughput: 0.00952956 Mbps
+Tx Packets = 219
+Rx Packets = 219
+Duration		: 5.97659
+Last Received Packet	: 6.9913 Seconds
+Throughput: 0.0100643 Mbps
+Sum of e2e Delay: 0.142926 s
+Average of e2e Delay: 0.000652631 s
 ---------------------------------------------------------------------------
 Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 189
-Rx Packets = 189
-Duration		: 5.97501
-Last Received Packet	: 6.99119 Seconds
-Throughput: 0.00868792 Mbps
+Tx Packets = 179
+Rx Packets = 179
+Duration		: 5.95033
+Last Received Packet	: 6.9712 Seconds
+Throughput: 0.00826237 Mbps
+Sum of e2e Delay: 0.0687342 s
+Average of e2e Delay: 0.00038399 s
 ---------------------------------------------------------------------------
-Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
-Tx Packets = 700
-Rx Packets = 687
-Duration		: 6.99007
-Last Received Packet	: 6.99007 Seconds
-Sum of e2e Delay: 0.0510959 s
-Average of e2e Delay: 7.43754e-05 s
----------------------------------------------------------------------------
-Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
-Tx Packets = 603
-Rx Packets = 603
-Duration		: 6.99018
-Last Received Packet	: 6.99018 Seconds
-Sum of e2e Delay: 1.07897 s
-Average of e2e Delay: 0.00178934 s
----------------------------------------------------------------------------
-Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
-Tx Packets = 603
-Rx Packets = 603
-Duration		: 6.99051
-Last Received Packet	: 6.99051 Seconds
-Sum of e2e Delay: 1.25911 s
-Average of e2e Delay: 0.00208807 s
----------------------------------------------------------------------------
-Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
-Tx Packets = 603
-Rx Packets = 603
-Duration		: 6.99085
-Last Received Packet	: 6.99085 Seconds
-Sum of e2e Delay: 1.42827 s
-Average of e2e Delay: 0.00236861 s
----------------------------------------------------------------------------
-Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
-Tx Packets = 302
-Rx Packets = 302
-Duration		: 5.98981
-Last Received Packet	: 6.99131 Seconds
-Sum of e2e Delay: 0.0696605 s
-Average of e2e Delay: 0.000230664 s
----------------------------------------------------------------------------
-Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
-Tx Packets = 302
-Rx Packets = 302
-Duration		: 5.98887
-Last Received Packet	: 6.99062 Seconds
-Sum of e2e Delay: 0.0868193 s
-Average of e2e Delay: 0.000287481 s
----------------------------------------------------------------------------
-Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
-Tx Packets = 302
-Rx Packets = 302
-Duration		: 5.98827
-Last Received Packet	: 6.99029 Seconds
-Sum of e2e Delay: 0.083572 s
-Average of e2e Delay: 0.000276729 s
----------------------------------------------------------------------------
-Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 205
-Rx Packets = 205
-Duration		: 5.95655
-Last Received Packet	: 6.96092 Seconds
-Sum of e2e Delay: 0.184226 s
-Average of e2e Delay: 0.000898665 s
----------------------------------------------------------------------------
-Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 207
-Rx Packets = 207
-Duration		: 5.96609
-Last Received Packet	: 6.9808 Seconds
-Sum of e2e Delay: 0.137085 s
-Average of e2e Delay: 0.000662247 s
----------------------------------------------------------------------------
-Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 189
-Rx Packets = 189
-Duration		: 5.97501
-Last Received Packet	: 6.99119 Seconds
-Sum of e2e Delay: 0.0725746 s
-Average of e2e Delay: 0.000383993 s
----------------------------------------------------------------------------
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 1 Sent: m
-Client Recieved: m
 Mapper 0 Sent: g
 Client Recieved: g
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: e
-Client Recieved: e
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 2 Sent: y
+Client Recieved: y
 Mapper 0 Sent: f
 Client Recieved: f
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 2 Sent: s
-Client Recieved: s
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: a
+Client Recieved: a
 Mapper 2 Sent: z
 Client Recieved: z
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: l
+Client Recieved: l
 Mapper 0 Sent: h
 Client Recieved: h
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 2 Sent: t
-Client Recieved: t
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 1 Sent: n
+Client Recieved: n
 Mapper 0 Sent: f
 Client Recieved: f
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: m
-Client Recieved: m
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 2 Sent: v
+Client Recieved: v
 Mapper 0 Sent: c
 Client Recieved: c
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 1 Sent: o
+Client Recieved: o
 Mapper 1 Sent: k
 Client Recieved: k
 Mapper 1 Sent: p
 Client Recieved: p
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: t
-Client Recieved: t
 Mapper 1 Sent: p
 Client Recieved: p
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 2 Sent: s
-Client Recieved: s
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 2 Sent: x
+Client Recieved: x
 Mapper 0 Sent: d
 Client Recieved: d
 Mapper 1 Sent: r
 Client Recieved: r
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 2 Sent: u
-Client Recieved: u
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 1 Sent: q
+Client Recieved: q
 Mapper 2 Sent: x
 Client Recieved: x
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 2 Sent: w
-Client Recieved: w
+Mapper 1 Sent: q
+Client Recieved: q
 Mapper 2 Sent: y
 Client Recieved: y
-Mapper 2 Sent: s
-Client Recieved: s
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: y
+Client Recieved: y
 Mapper 2 Sent: t
 Client Recieved: t
+Mapper 1 Sent: m
+Client Recieved: m
 Mapper 1 Sent: j
 Client Recieved: j
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 1 Sent: o
+Client Recieved: o
 Mapper 1 Sent: j
 Client Recieved: j
 Mapper 1 Sent: q
 Client Recieved: q
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: t
-Client Recieved: t
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 0 Sent: b
+Client Recieved: b
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: r
+Client Recieved: r
 Mapper 0 Sent: c
 Client Recieved: c
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 0 Sent: a
+Client Recieved: a
 Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
 Tx Packets = 800
 Rx Packets = 787
 Duration		: 7.99007
 Last Received Packet	: 7.99007 Seconds
 Throughput: 0.0270531 Mbps
+Sum of e2e Delay: 0.057833 s
+Average of e2e Delay: 7.34854e-05 s
 ---------------------------------------------------------------------------
 Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
 Tx Packets = 703
@@ -2379,349 +1997,289 @@ Rx Packets = 703
 Duration		: 7.99018
 Last Received Packet	: 7.99018 Seconds
 Throughput: 0.0409209 Mbps
+Sum of e2e Delay: 1.09039 s
+Average of e2e Delay: 0.00155105 s
 ---------------------------------------------------------------------------
 Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
 Tx Packets = 703
 Rx Packets = 703
-Duration		: 7.99044
-Last Received Packet	: 7.99044 Seconds
-Throughput: 0.0409196 Mbps
+Duration		: 7.99053
+Last Received Packet	: 7.99053 Seconds
+Throughput: 0.0409191 Mbps
+Sum of e2e Delay: 1.29636 s
+Average of e2e Delay: 0.00184404 s
 ---------------------------------------------------------------------------
 Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
 Tx Packets = 703
 Rx Packets = 703
-Duration		: 7.99098
-Last Received Packet	: 7.99098 Seconds
-Throughput: 0.0409168 Mbps
+Duration		: 7.9908
+Last Received Packet	: 7.9908 Seconds
+Throughput: 0.0409177 Mbps
+Sum of e2e Delay: 1.50217 s
+Average of e2e Delay: 0.0021368 s
 ---------------------------------------------------------------------------
 Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
 Tx Packets = 352
 Rx Packets = 352
-Duration		: 6.98959
-Last Received Packet	: 7.99109 Seconds
-Throughput: 0.0199839 Mbps
+Duration		: 6.98941
+Last Received Packet	: 7.99091 Seconds
+Throughput: 0.0199844 Mbps
+Sum of e2e Delay: 0.0815852 s
+Average of e2e Delay: 0.000231776 s
 ---------------------------------------------------------------------------
 Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
 Tx Packets = 352
 Rx Packets = 352
-Duration		: 6.98909
-Last Received Packet	: 7.99085 Seconds
-Throughput: 0.0199853 Mbps
+Duration		: 6.98889
+Last Received Packet	: 7.99064 Seconds
+Throughput: 0.0199859 Mbps
+Sum of e2e Delay: 0.100008 s
+Average of e2e Delay: 0.000284114 s
 ---------------------------------------------------------------------------
 Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
 Tx Packets = 352
 Rx Packets = 352
-Duration		: 6.98861
-Last Received Packet	: 7.99063 Seconds
-Throughput: 0.0199867 Mbps
+Duration		: 6.98939
+Last Received Packet	: 7.99141 Seconds
+Throughput: 0.0199844 Mbps
+Sum of e2e Delay: 0.0936538 s
+Average of e2e Delay: 0.000266062 s
 ---------------------------------------------------------------------------
 Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 231
-Rx Packets = 231
+Tx Packets = 237
+Rx Packets = 237
 Duration		: 6.98688
 Last Received Packet	: 7.99125 Seconds
-Throughput: 0.00908074 Mbps
+Throughput: 0.0093166 Mbps
+Sum of e2e Delay: 0.213807 s
+Average of e2e Delay: 0.00090214 s
 ---------------------------------------------------------------------------
 Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 246
-Rx Packets = 246
-Duration		: 6.94622
-Last Received Packet	: 7.96093 Seconds
-Throughput: 0.00972701 Mbps
+Tx Packets = 258
+Rx Packets = 258
+Duration		: 6.95654
+Last Received Packet	: 7.97125 Seconds
+Throughput: 0.0101864 Mbps
+Sum of e2e Delay: 0.167608 s
+Average of e2e Delay: 0.000649643 s
 ---------------------------------------------------------------------------
 Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 224
-Rx Packets = 224
-Duration		: 6.9647
-Last Received Packet	: 7.98088 Seconds
-Throughput: 0.00883361 Mbps
+Tx Packets = 206
+Rx Packets = 206
+Duration		: 6.95998
+Last Received Packet	: 7.98085 Seconds
+Throughput: 0.00812928 Mbps
+Sum of e2e Delay: 0.0762831 s
+Average of e2e Delay: 0.000370306 s
 ---------------------------------------------------------------------------
-Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
-Tx Packets = 800
-Rx Packets = 787
-Duration		: 7.99007
-Last Received Packet	: 7.99007 Seconds
-Sum of e2e Delay: 0.0576969 s
-Average of e2e Delay: 7.33124e-05 s
----------------------------------------------------------------------------
-Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
-Tx Packets = 703
-Rx Packets = 703
-Duration		: 7.99018
-Last Received Packet	: 7.99018 Seconds
-Sum of e2e Delay: 1.09037 s
-Average of e2e Delay: 0.00155103 s
----------------------------------------------------------------------------
-Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
-Tx Packets = 703
-Rx Packets = 703
-Duration		: 7.99044
-Last Received Packet	: 7.99044 Seconds
-Sum of e2e Delay: 1.29746 s
-Average of e2e Delay: 0.0018456 s
----------------------------------------------------------------------------
-Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
-Tx Packets = 703
-Rx Packets = 703
-Duration		: 7.99098
-Last Received Packet	: 7.99098 Seconds
-Sum of e2e Delay: 1.49519 s
-Average of e2e Delay: 0.00212687 s
----------------------------------------------------------------------------
-Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
-Tx Packets = 352
-Rx Packets = 352
-Duration		: 6.98959
-Last Received Packet	: 7.99109 Seconds
-Sum of e2e Delay: 0.0804233 s
-Average of e2e Delay: 0.000228475 s
----------------------------------------------------------------------------
-Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
-Tx Packets = 352
-Rx Packets = 352
-Duration		: 6.98909
-Last Received Packet	: 7.99085 Seconds
-Sum of e2e Delay: 0.0985557 s
-Average of e2e Delay: 0.000279988 s
----------------------------------------------------------------------------
-Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
-Tx Packets = 352
-Rx Packets = 352
-Duration		: 6.98861
-Last Received Packet	: 7.99063 Seconds
-Sum of e2e Delay: 0.0956579 s
-Average of e2e Delay: 0.000271755 s
----------------------------------------------------------------------------
-Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 231
-Rx Packets = 231
-Duration		: 6.98688
-Last Received Packet	: 7.99125 Seconds
-Sum of e2e Delay: 0.208341 s
-Average of e2e Delay: 0.000901908 s
----------------------------------------------------------------------------
-Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 246
-Rx Packets = 246
-Duration		: 6.94622
-Last Received Packet	: 7.96093 Seconds
-Sum of e2e Delay: 0.159399 s
-Average of e2e Delay: 0.000647963 s
----------------------------------------------------------------------------
-Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 224
-Rx Packets = 224
-Duration		: 6.9647
-Last Received Packet	: 7.98088 Seconds
-Sum of e2e Delay: 0.0838461 s
-Average of e2e Delay: 0.000374313 s
----------------------------------------------------------------------------
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 1 Sent: n
-Client Recieved: n
+Mapper 2 Sent: t
+Client Recieved: t
 Mapper 1 Sent: p
 Client Recieved: p
 Mapper 2 Sent: t
 Client Recieved: t
-Mapper 0 Sent: i
-Client Recieved: i
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 2 Sent: x
+Client Recieved: x
 Mapper 0 Sent: h
 Client Recieved: h
-Mapper 1 Sent: m
-Client Recieved: m
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: p
+Client Recieved: p
 Mapper 0 Sent: d
 Client Recieved: d
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: u
-Client Recieved: u
 Mapper 1 Sent: o
 Client Recieved: o
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: e
-Client Recieved: e
 Mapper 0 Sent: a
 Client Recieved: a
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 1 Sent: k
-Client Recieved: k
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: o
+Client Recieved: o
 Mapper 0 Sent: f
 Client Recieved: f
 Mapper 2 Sent: s
 Client Recieved: s
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 1 Sent: n
-Client Recieved: n
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: o
+Client Recieved: o
 Mapper 2 Sent: z
 Client Recieved: z
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: b
-Client Recieved: b
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 0 Sent: i
-Client Recieved: i
 Mapper 1 Sent: l
 Client Recieved: l
-Mapper 2 Sent: x
-Client Recieved: x
+Mapper 2 Sent: u
+Client Recieved: u
 Mapper 1 Sent: n
 Client Recieved: n
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 0 Sent: g
+Client Recieved: g
 Mapper 2 Sent: x
 Client Recieved: x
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 0 Sent: i
-Client Recieved: i
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 1 Sent: m
+Client Recieved: m
 Mapper 2 Sent: u
 Client Recieved: u
 Mapper 0 Sent: e
 Client Recieved: e
 Mapper 0 Sent: g
 Client Recieved: g
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 2 Sent: s
+Client Recieved: s
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: v
+Client Recieved: v
 Mapper 0 Sent: b
 Client Recieved: b
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 1 Sent: p
+Client Recieved: p
 Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
 Tx Packets = 900
 Rx Packets = 887
 Duration		: 8.99007
 Last Received Packet	: 8.99007 Seconds
 Throughput: 0.027099 Mbps
+Sum of e2e Delay: 0.064434 s
+Average of e2e Delay: 7.26426e-05 s
 ---------------------------------------------------------------------------
 Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
 Tx Packets = 803
@@ -2729,340 +2287,278 @@ Rx Packets = 803
 Duration		: 8.99018
 Last Received Packet	: 8.99018 Seconds
 Throughput: 0.041461 Mbps
+Sum of e2e Delay: 1.10179 s
+Average of e2e Delay: 0.00137209 s
 ---------------------------------------------------------------------------
 Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
 Tx Packets = 803
 Rx Packets = 803
-Duration		: 8.99064
-Last Received Packet	: 8.99064 Seconds
-Throughput: 0.0414589 Mbps
+Duration		: 8.99047
+Last Received Packet	: 8.99047 Seconds
+Throughput: 0.0414596 Mbps
+Sum of e2e Delay: 1.33561 s
+Average of e2e Delay: 0.00166327 s
 ---------------------------------------------------------------------------
 Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
 Tx Packets = 803
 Rx Packets = 803
-Duration		: 8.99094
-Last Received Packet	: 8.99094 Seconds
+Duration		: 8.99093
+Last Received Packet	: 8.99093 Seconds
 Throughput: 0.0414575 Mbps
+Sum of e2e Delay: 1.57014 s
+Average of e2e Delay: 0.00195534 s
 ---------------------------------------------------------------------------
 Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
 Tx Packets = 402
 Rx Packets = 402
-Duration		: 7.98955
-Last Received Packet	: 8.99105 Seconds
+Duration		: 7.98954
+Last Received Packet	: 8.99104 Seconds
 Throughput: 0.0199655 Mbps
+Sum of e2e Delay: 0.092256 s
+Average of e2e Delay: 0.000229493 s
 ---------------------------------------------------------------------------
 Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
 Tx Packets = 402
 Rx Packets = 402
-Duration		: 7.989
-Last Received Packet	: 8.99075 Seconds
-Throughput: 0.0199669 Mbps
+Duration		: 7.98897
+Last Received Packet	: 8.99072 Seconds
+Throughput: 0.019967 Mbps
+Sum of e2e Delay: 0.114814 s
+Average of e2e Delay: 0.000285607 s
 ---------------------------------------------------------------------------
 Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
 Tx Packets = 402
 Rx Packets = 402
-Duration		: 7.98848
-Last Received Packet	: 8.9905 Seconds
-Throughput: 0.0199682 Mbps
+Duration		: 7.98827
+Last Received Packet	: 8.99029 Seconds
+Throughput: 0.0199687 Mbps
+Sum of e2e Delay: 0.106549 s
+Average of e2e Delay: 0.000265047 s
 ---------------------------------------------------------------------------
 Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 266
-Rx Packets = 266
-Duration		: 7.98691
-Last Received Packet	: 8.99128 Seconds
-Throughput: 0.00914736 Mbps
+Tx Packets = 263
+Rx Packets = 263
+Duration		: 7.92673
+Last Received Packet	: 8.9311 Seconds
+Throughput: 0.00911285 Mbps
+Sum of e2e Delay: 0.238689 s
+Average of e2e Delay: 0.000907561 s
 ---------------------------------------------------------------------------
 Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 285
-Rx Packets = 285
-Duration		: 7.92624
-Last Received Packet	: 8.94095 Seconds
-Throughput: 0.00987575 Mbps
+Tx Packets = 293
+Rx Packets = 293
+Duration		: 7.97645
+Last Received Packet	: 8.99116 Seconds
+Throughput: 0.0100891 Mbps
+Sum of e2e Delay: 0.189012 s
+Average of e2e Delay: 0.000645091 s
 ---------------------------------------------------------------------------
 Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 250
-Rx Packets = 250
-Duration		: 7.94478
-Last Received Packet	: 8.96096 Seconds
-Throughput: 0.00864273 Mbps
+Tx Packets = 245
+Rx Packets = 245
+Duration		: 7.95994
+Last Received Packet	: 8.98082 Seconds
+Throughput: 0.00845374 Mbps
+Sum of e2e Delay: 0.0883805 s
+Average of e2e Delay: 0.000360737 s
 ---------------------------------------------------------------------------
-Flow ID			: 1 ; 10.1.3.1 -----> 10.1.3.2
-Tx Packets = 900
-Rx Packets = 887
-Duration		: 8.99007
-Last Received Packet	: 8.99007 Seconds
-Sum of e2e Delay: 0.0642979 s
-Average of e2e Delay: 7.24891e-05 s
----------------------------------------------------------------------------
-Flow ID			: 2 ; 10.1.3.2 -----> 10.1.3.3
-Tx Packets = 803
-Rx Packets = 803
-Duration		: 8.99018
-Last Received Packet	: 8.99018 Seconds
-Sum of e2e Delay: 1.10177 s
-Average of e2e Delay: 0.00137207 s
----------------------------------------------------------------------------
-Flow ID			: 3 ; 10.1.3.2 -----> 10.1.3.4
-Tx Packets = 803
-Rx Packets = 803
-Duration		: 8.99064
-Last Received Packet	: 8.99064 Seconds
-Sum of e2e Delay: 1.33694 s
-Average of e2e Delay: 0.00166493 s
----------------------------------------------------------------------------
-Flow ID			: 4 ; 10.1.3.2 -----> 10.1.3.5
-Tx Packets = 803
-Rx Packets = 803
-Duration		: 8.99094
-Last Received Packet	: 8.99094 Seconds
-Sum of e2e Delay: 1.56412 s
-Average of e2e Delay: 0.00194785 s
----------------------------------------------------------------------------
-Flow ID			: 5 ; 10.1.3.5 -----> 10.1.3.2
-Tx Packets = 402
-Rx Packets = 402
-Duration		: 7.98955
-Last Received Packet	: 8.99105 Seconds
-Sum of e2e Delay: 0.0899409 s
-Average of e2e Delay: 0.000223734 s
----------------------------------------------------------------------------
-Flow ID			: 6 ; 10.1.3.4 -----> 10.1.3.2
-Tx Packets = 402
-Rx Packets = 402
-Duration		: 7.989
-Last Received Packet	: 8.99075 Seconds
-Sum of e2e Delay: 0.111964 s
-Average of e2e Delay: 0.000278518 s
----------------------------------------------------------------------------
-Flow ID			: 7 ; 10.1.3.3 -----> 10.1.3.2
-Tx Packets = 402
-Rx Packets = 402
-Duration		: 7.98848
-Last Received Packet	: 8.9905 Seconds
-Sum of e2e Delay: 0.109283 s
-Average of e2e Delay: 0.000271848 s
----------------------------------------------------------------------------
-Flow ID			: 8 ; 10.1.3.3 -----> 10.1.3.1
-Tx Packets = 266
-Rx Packets = 266
-Duration		: 7.98691
-Last Received Packet	: 8.99128 Seconds
-Sum of e2e Delay: 0.240516 s
-Average of e2e Delay: 0.000904195 s
----------------------------------------------------------------------------
-Flow ID			: 9 ; 10.1.3.4 -----> 10.1.3.1
-Tx Packets = 285
-Rx Packets = 285
-Duration		: 7.92624
-Last Received Packet	: 8.94095 Seconds
-Sum of e2e Delay: 0.183119 s
-Average of e2e Delay: 0.000642522 s
----------------------------------------------------------------------------
-Flow ID			: 10 ; 10.1.3.5 -----> 10.1.3.1
-Tx Packets = 250
-Rx Packets = 250
-Duration		: 7.94478
-Last Received Packet	: 8.96096 Seconds
-Sum of e2e Delay: 0.091733 s
-Average of e2e Delay: 0.000366932 s
----------------------------------------------------------------------------
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 1 Sent: p
-Client Recieved: p
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: c
+Client Recieved: c
 Mapper 1 Sent: j
 Client Recieved: j
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: h
+Client Recieved: h
 Mapper 2 Sent: v
 Client Recieved: v
-Mapper 1 Sent: p
-Client Recieved: p
 Mapper 0 Sent: b
 Client Recieved: b
-Mapper 1 Sent: q
-Client Recieved: q
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: x
+Client Recieved: x
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 2 Sent: t
+Client Recieved: t
 Mapper 1 Sent: m
 Client Recieved: m
 Mapper 0 Sent: g
 Client Recieved: g
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 2 Sent: x
-Client Recieved: x
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 0 Sent: i
-Client Recieved: i
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 2 Sent: z
+Client Recieved: z
 Mapper 0 Sent: b
 Client Recieved: b
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: v
-Client Recieved: v
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 1 Sent: m
-Client Recieved: m
 Mapper 1 Sent: j
 Client Recieved: j
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: q
-Client Recieved: q
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 0 Sent: a
-Client Recieved: a
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: e
-Client Recieved: e
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 0 Sent: d
-Client Recieved: d
-Mapper 1 Sent: m
-Client Recieved: m
-Mapper 2 Sent: y
-Client Recieved: y
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 0 Sent: c
-Client Recieved: c
-Mapper 1 Sent: l
-Client Recieved: l
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 1 Sent: p
-Client Recieved: p
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 2 Sent: s
-Client Recieved: s
-Mapper 1 Sent: r
-Client Recieved: r
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 2 Sent: u
-Client Recieved: u
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 1 Sent: j
-Client Recieved: j
-Mapper 0 Sent: h
-Client Recieved: h
-Mapper 1 Sent: k
-Client Recieved: k
-Mapper 0 Sent: g
-Client Recieved: g
-Mapper 0 Sent: i
-Client Recieved: i
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 1 Sent: n
-Client Recieved: n
-Mapper 2 Sent: w
-Client Recieved: w
-Mapper 2 Sent: z
-Client Recieved: z
-Mapper 0 Sent: f
-Client Recieved: f
-Mapper 1 Sent: r
-Client Recieved: r
 Mapper 1 Sent: q
 Client Recieved: q
 Mapper 2 Sent: t
 Client Recieved: t
-Mapper 2 Sent: t
-Client Recieved: t
-Mapper 1 Sent: o
-Client Recieved: o
-Mapper 2 Sent: v
-Client Recieved: v
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 0 Sent: a
+Client Recieved: a
 Mapper 0 Sent: h
 Client Recieved: h
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 2 Sent: v
+Client Recieved: v
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 1 Sent: q
+Client Recieved: q
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 0 Sent: h
+Client Recieved: h
+Mapper 1 Sent: r
+Client Recieved: r
+Mapper 1 Sent: k
+Client Recieved: k
 Mapper 2 Sent: x
 Client Recieved: x
-Mapper 0 Sent: f
-Client Recieved: f
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 2 Sent: t
+Client Recieved: t
 Mapper 1 Sent: p
 Client Recieved: p
-Mapper 2 Sent: z
-Client Recieved: z
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 1 Sent: n
+Client Recieved: n
+Mapper 2 Sent: u
+Client Recieved: u
+Mapper 2 Sent: w
+Client Recieved: w
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 1 Sent: j
+Client Recieved: j
+Mapper 1 Sent: o
+Client Recieved: o
+Mapper 2 Sent: t
+Client Recieved: t
+Mapper 0 Sent: f
+Client Recieved: f
+Mapper 1 Sent: l
+Client Recieved: l
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: a
+Client Recieved: a
+Mapper 1 Sent: k
+Client Recieved: k
+Mapper 1 Sent: n
+Client Recieved: n
 Mapper 2 Sent: s
 Client Recieved: s
+Mapper 0 Sent: e
+Client Recieved: e
+Mapper 0 Sent: c
+Client Recieved: c
+Mapper 0 Sent: d
+Client Recieved: d
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 1 Sent: p
+Client Recieved: p
+Mapper 0 Sent: g
+Client Recieved: g
+Mapper 1 Sent: m
+Client Recieved: m
+Mapper 2 Sent: z
+Client Recieved: z
+Mapper 2 Sent: y
+Client Recieved: y
+Mapper 0 Sent: i
+Client Recieved: i
+Mapper 0 Sent: d
+Client Recieved: d

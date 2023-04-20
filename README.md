@@ -309,7 +309,7 @@ void Client::HandleRead(Ptr<Socket> socket)
         }
         MyHeader destinationHeader;
         packet->RemoveHeader(destinationHeader);
-        cout << "Client Recieved: " << static_cast<char>(destinationHeader.GetData()) << endl; /////////////////////////////////////////////////////////////
+        cout << "Client Recieved: " << static_cast<char>(destinationHeader.GetData()) << endl; 
     }
     Simulator::Cancel(timeOut);
     GenerateTraffic(socket, rand() % 26, port, ip.GetAddress(0));
@@ -376,7 +376,7 @@ void Master::HandleRead(Ptr<Socket> socket)
 void
 Mapper::StartApplication (void)
 {
-  sendToClientSocket  = Socket::CreateSocket (GetNode (), UdpSocketFactory::GetTypeId ());//////////
+  sendToClientSocket  = Socket::CreateSocket (GetNode (), UdpSocketFactory::GetTypeId ());
   socket = Socket::CreateSocket (GetNode (), TcpSocketFactory::GetTypeId ());
   InetSocketAddress localAddress = InetSocketAddress (ip.GetAddress (id), port);
   socket->Bind (localAddress);
@@ -433,3 +433,20 @@ Mapper::HandleRead (Ptr<Socket> socket)
     }
 }
 ```
+## Analysis
+The bandWidth is set to 1Mbps and duration of the simulation is 10 seconds. every 0.01 second we schedule the simulator, and every 1 second we monitor the Throughput and Average of e2e Delay.
+- Client To Master Throughput & Avg end to end delay </br>
+The type of the socket that sends data from client to master is UDP, so some data can be lost; As we can see 400 packets were transfered and 387 of them has recieved. Client's IP address is 10.1.3.1 and master's IP address is 10.1.3.2. Also as we can see the UDP socket connection is fast and the duration time is approimately equal to the time that last packet recieved.
+![client2master](/images/client2master.png "client2master")
+- Master To Mappers Throughput & Avg end to end delay </br>
+The type of the socket that sends data from client to master is TCP, so no data can be lost; As we can see 403 packets were transfered and all of them has recieved. master's IP address is 10.1.3.2 and mappers' IP addresses are from 10.1.3.3 to 10.1.3.5. 
+![master2mappers](/images/master2mappers.png "master2mappers")
+- Mappers To Master Throughput & Avg end to end delay </br>
+As we use TCP connection, Mappers should also send ACK signal to Master to show that they have recieved the packet correctly.
+![mappers2master](/images/mappers2master.png "mappers2master")
+- Mappers To Client Throughput & Avg end to end delay </br>
+The type of the socket that sends data from mappers to client is UDP. Just one of the mappers that has the random number as a key send the packet to client.
+![mappers2client](/images/mappers2client.png "mappers2client")
+
+## Example
+![example](/images/example.png "example")

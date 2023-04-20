@@ -92,7 +92,7 @@ Client::HandleRead (Ptr<Socket> socket)
       MyHeader destinationHeader;
       packet->RemoveHeader (destinationHeader);
       std::cout << "Client Recieved: " << static_cast<char> (destinationHeader.GetData ())
-           << std::endl; /////////////////////////////////////////////////////////////
+           << std::endl; 
     }
   Simulator::Cancel (timeOut);
   GenerateTraffic (socket, rand () % 26, port, ip.GetAddress (0));
