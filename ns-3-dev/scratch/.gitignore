@@ -3,4 +3,7 @@
 !.gitignore
 !subdir/
 !scratch-simulator.cc
-!sample.cc
+!client.hpp
+!master.hpp
+!mapper.hpp
+!myHeader.hpp
